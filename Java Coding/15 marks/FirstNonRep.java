@@ -4,7 +4,7 @@ public class FirstNonRep{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         String s = sc.next();
-        // SetCharacter st = new HashSet<>();
+        // Set<Character> st = new HashSet<>();
         int[] arr= new int[256];
 
         for(char ch:s.toCharArray()){
